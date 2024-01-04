@@ -1,0 +1,85 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+    color: white;
+}
+
+.w3-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.navigacija {
+    background-color: #333;
+}
+
+.navigacija a {
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.navigacija a:hover {
+    background-color: #555;
+}
+
+form {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #333;
+}
+
+label {
+    color: white;
+    margin-right: 10px;
+}
+
+input[type="text"],
+select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background-color: #1dabdb;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+h1, h3, h4 {
+    color: #fff;
+    text-align: center;
+}
+
+table.w3-table-all {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.w3-table-all th, table.w3-table-all td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    color: #222;
+}
+
+table.w3-table-all th {
+    background-color: #1dabdb;
+    color: white;
+}
+
+table.w3-table-all tr:hover {
+    background-color: #f5f5f5;
+}
