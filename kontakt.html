@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web-shop Tenisice</title>
+    <link rel="stylesheet" href="stil.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="poruka.js" defer></script>
+</head>
+
+<body>
+    <div class="w3-container">
+        <nav class="navigacija">
+            <div class="w3-bar">
+                <a href="index.php" class="w3-bar-item w3-button">Početna stranica</a>
+                <a href="kontakt.html" class="w3-bar-item w3-button">Kontakt</a>
+            </div>
+        </nav>
+    </div>
+    <div class="w3-container">
+        <h1>Web shop - Tenisice</h1>
+        <h3>Kontakt</h3>
+
+        <div class="center-form">
+            <form action="#" method="post" class="contact-form" id="contactForm">
+                <label for="name">Ime:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="message">Poruka:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <br>
+                <button type="submit" onclick="showThankYou()">Pošalji</button>
+            </form>
+
+            <div id="thankYouMessage" style="display: none;">
+                <p>Hvala vam na kontaktiranju! Vaša poruka je primljena.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
